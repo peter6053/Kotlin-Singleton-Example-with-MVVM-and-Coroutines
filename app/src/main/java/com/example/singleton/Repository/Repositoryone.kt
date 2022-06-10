@@ -25,12 +25,12 @@ object Repositoryone {
                     }
                 }
             }
-
+            fun Canceljobs() {
+                job?.cancel()
+            }
 
         }
-        fun Canceljobs() {
-            job?.cancel()
-        }
+
 
     }
 }
